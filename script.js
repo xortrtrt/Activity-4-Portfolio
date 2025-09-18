@@ -25,7 +25,6 @@ projects.forEach(project => {
       <h5 class="card-title">${project.title}</h5>
       <p class="card-text">${project.description}</p>
       <div class="d-flex justify-content-center gap-2">
-        <a href="#" class="btn btn-primary" target="_blank">Live Demo</a>
         <a href="${project.repoLink}" class="btn btn-dark" target="_blank"><i class="fab fa-github"></i> Repo</a>
       </div>
     </div>
@@ -33,4 +32,5 @@ projects.forEach(project => {
 
   container.appendChild(col);
 });
+
 
