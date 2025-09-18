@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSIT Student Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">🚀 My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero d-flex flex-column align-items-center justify-content-center text-center">
+  <div class="hero-bg"></div>
+  <div class="particles"></div>
+
+  <img src="images/profile.png" alt="Profile Picture" class="profile-pic mb-3 shadow-glow">
+  <h1 class="fw-bold">Hi, I'm <span class="highlight">Patric Clement Mapa</span></h1>
+  <p class="lead">A BSIT student passionate about building modern and efficient <br> web & software solutions.</p>
+  <div class="d-flex gap-3 mt-3">
+    <a href="#projects" class="btn btn-dark px-4">🚀 View Projects</a>
+    <a href="#contact" class="btn btn-outline-light px-4">📩 Contact Me</a>
+  </div>
+</section>
+
+
+<!-- About Me -->
+<section id="about" class="about container py-5">
+  <div class="row align-items-center">
+    <!-- GIF -->
+    <div class="col-md-6 text-center mb-4 mb-md-0">
+      <img 
+        src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" 
+        alt="Coding Doodle" 
+        class="about-gif"
+      >
+    </div>
+
+    <!-- Text -->
+    <div class="col-md-6">
+      <h2 class="section-title">👨‍💻 About Me</h2>
+      <p>
+        I am a <strong>3rd year BSIT student</strong> passionate about 
+        building <span class="highlight">efficient and modern web</span> 
+        and <span class="highlight">software solutions</span>.
+      </p>
+      <p>
+        Skilled in <strong>HTML, CSS, JavaScript, PHP</strong>, with knowledge in 
+        <strong>C++</strong> for problem-solving and systems development. 
+        My projects range from <span class="highlight">static websites</span> 
+        to <span class="highlight">dynamic database-driven applications</span>, 
+        strengthening both my technical and collaborative skills.
+      </p>
+      <p>
+        I’m particularly interested in 
+        <strong>full-stack development</strong> and 
+        <strong>software engineering</strong>. My long-term goal is to 
+        contribute to <span class="highlight">innovative tech solutions</span> 
+        that improve efficiency and user experience.
+      </p>
+      <!-- EDUCATION AND LOCATION -->
+      <div class="row text-center mt-4">
+        <div class="col-6 col-md-4 mb-3">
+          <i class="fa-solid fa-user-graduate fa-2x icon-accent"></i>
+          <h6 class="mt-2">Education</h6>
+          <p class="info-text">BSIT 3rd Year</p>
+        </div>
+        <div class="col-6 col-md-4 mb-3">
+          <i class="fa-solid fa-location-dot fa-2x icon-accent"></i>
+          <h6 class="mt-2">Location</h6>
+          <p class="info-text">Philippines</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">My Skills</h2>
+      <div class="row justify-content-center">
+        <div class="col-4 col-md-2 mb-4">
+          <i class="fa-brands fa-html5 fa-4x text-danger"></i>
+          <p class="mt-2">HTML5</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <i class="fa-brands fa-css3-alt fa-4x text-primary"></i>
+          <p class="mt-2">CSS3</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <i class="fa-brands fa-js fa-4x text-warning"></i>
+          <p class="mt-2">JavaScript</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <i class="fa-brands fa-php fa-4x" style="color:#7377ad;"></i>
+          <p class="mt-2">PHP</p>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <img src="images/cpp.png" alt="C++" class="skill-icon" style="width:64px; height:64px;">
+          <p class="mt-2">C++</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container py-5">
+    <h2 class="text-center mb-4">My Projects</h2>
+    <div class="row g-4" id="projects-container">
+      <!-- The projdects will generate here-->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="col-md-8 mx-auto">
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Enter your full name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" class="form-control" rows="4" placeholder="Write your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <p class="mb-2">© 2025 Patric Clement Mapa | My Portfolio</p>
+    <div class="social-links">
+      <a href="https://facebook.com/PCMapa" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://github.com/xortrtrt" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/patricclementmapa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:patric.mapa@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".custom-navbar");
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
+</script>
+
+</body>
+</html>
