@@ -9,7 +9,7 @@ const projects = [
     title: "Portfolio Website",
     description: "Personal portfolio built with HTML, CSS, Bootstrap, and JavaScript to showcase skills and projects.",
     icon: "fa-solid fa-laptop-code",
-    repoLink: "https://github.com/yourusername/portfolio"
+    repoLink: "https://github.com/xortrtrt/Activity-4-Portfolio"
   }
 ];
 
@@ -33,3 +33,4 @@ projects.forEach(project => {
 
   container.appendChild(col);
 });
+
